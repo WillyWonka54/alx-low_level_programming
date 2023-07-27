@@ -6,7 +6,7 @@
  * @src: The source string
  *
  * Return: A pointer to the resulting string dest.
- */
+*/
 char *_strcat(char *dest, char *src)
 {
 	char *s = dest;
@@ -15,7 +15,6 @@ char *_strcat(char *dest, char *src)
 	{
 		dest++;
 	}
-
 	while (*src != '\0')
 	{
 		*dest = *src;
