@@ -1,3 +1,5 @@
+#include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
 /**
  * *create_array - Create dynamic array and initialize with a character
